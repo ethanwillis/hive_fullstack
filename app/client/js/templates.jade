@@ -1,0 +1,53 @@
+//- dashboard
+template(name="dashboard_summary")
+  .container-fluid
+    .col-sm-12.col-md-12.col-lg-12
+      | Placeholder for Summary dashboard summary/overview
+    .col-sm-12.col-md-6.col-lg-6
+      //- Profile views
+      a(href="{{pathFor 'profile_all'}}")
+        | View all profiles
+    .col-sm-12.col-md-6.col-lg-6
+      //- Grant Views
+      a(href="{{pathFor 'grant_all'}}")
+        | View all grants
+    .col-sm-12.col-md-6.col-lg-6
+      //- Publication views
+      a(href="{{pathFor 'publication_all'}}")
+        | View all publications
+    .col-sm-12.col-md-6.col-lg-6
+      //- Network views
+      a(href="{{pathFor 'network_all'}}")
+        | View all networks
+
+//- profile_all
+template(name="profile_all")
+  | Placeholder for All profile view
+
+//- profile
+template(name="profile")
+  | Placeholder for a single user profile view.
+
+//- grant_all
+template(name="grant_all")
+  | Placeholder for all grant view.
+
+//- grant
+template(name="grant")
+  | Placeholder for a single grant view
+
+//- publication_all
+template(name="publication_all")
+  | Placeholder for all publication view
+
+//- publication
+template(name="publication")
+  | Placeholder for a single publication view.
+
+//- network_all
+template(name="network_all")
+  | Placeholder for all network view
+
+//- network
+template(name="network")
+  | Placeholder for a single network view.
